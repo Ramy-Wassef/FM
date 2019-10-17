@@ -1,0 +1,34 @@
+.splash{
+    background-color: #F8EB2B;
+    padding: 5%;
+}
+
+
+.logo img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.logo p{
+    font-size: 40px;
+}
+
+@media (max-width:1185px){
+
+.logo p{
+    font-size: 30px;
+}
+}
+
+@media(max-width:944px){
+    .logo p{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:610px){
+    .logo p{
+        font-size: 16px;
+    }
+}

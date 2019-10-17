@@ -1,0 +1,42 @@
+.slider{
+    background: #FC5C5C;
+    padding: 7% 15%; ;
+} 
+
+.slp1{
+    font-size: 60px;
+    color: white;
+    margin: 0
+}
+
+.slp2{
+    color:white;
+    font-size: 16px;
+    padding: 3%;
+}
+
+.slp3{
+    color: white;
+    font-size: 40px;
+}
+.bk{
+    padding: 5%;
+    width: 60%;
+    margin: auto;
+}
+
+.ims{
+    height: 500px;
+}
+
+@media(max-width:789px){
+    .ims{
+        height: 250px;
+    }
+}
+
+@media(max-width:477px){
+    .ims{
+        height: 125px;
+    }
+}

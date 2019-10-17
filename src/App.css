@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+
+
+.category{
+  width: 48%;
+  height: 300px;
+  margin: 50px 1% 50px 1%;
+  float: left;
+   
+} 
+
+.category p{
+  padding: 5%;
+  font-size: 20px;
+}
+
+.category img{
+  width: 70%;
+  height: 100%;
+}
+
+
+.product img{
+  width: 60%;
+  height: 400px;
+  margin: 5%;
+}
+
+.product p{
+  color: blue;
+  font-size: 20px;
+}
+
+
+a{
+  cursor: pointer;
+}
+
+.btn{
+  margin-top: 5%;
+}
+
+.title{
+  margin: 5%; 
+  color: blue;
+  font-size: 40px;
+}
+
+@media(max-width:600px){
+  .category{
+    width: 60%;
+    height: 300px;
+    margin: 50px auto;
+    float: none;
+     
+  } 
+  .category p{
+
+    font-size: 20px;
+  }
+}
+
